@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+
+body {
+  background: url("https://img.freepik.com/vector-gratis/fondo-lineas-dinamicas-estilo-papel_23-2149008629.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1718841600&semt=ais_user")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: url("https://img.freepik.com/vector-gratis/fondo-lineas-dinamicas-estilo-papel_23-2149008629.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1718841600&semt=ais_user")
+      no-repeat center center fixed;
+    background-size: cover;
+  }
+}
